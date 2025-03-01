@@ -13,14 +13,41 @@ This is a full-stack e-commerce web application built using the MERN stack (Mong
 - Order tracking and history
 - Fully responsive UI for mobile and desktop users.
 
+## Admin Panel Features:
+
+- Dashboard with an overview of orders
+- Manage products (Add, Update, Delete, View)
+- Manage orders (View, Update order status)
+
 ## Tech Stack
 
-- **Frontend**: React.js, Tailwind CSS 
-- **Backend**: Node.js, Express
-- **WebSocket**: Socket.io
-- **Database**: MongoDB
+Frontend:
+
+- React.js (with React Router)
+- Tailwind CSS for UI styling
+- Axios for API requests
+
+Backend:
+
+- Node.js with Express.js
+- MongoDB with Mongoose (for database management)
+- JWT Authentication
+- Multer for image uploads
+- Stripe / Razorpay integration for payments
+
+Additional Tools:
+
+- Cloudinary (for product image storage)
+- dotenv (for environment variables management)
+- Bcrypt.js (for password hashing)
+- Cors (for handling cross-origin requests)
 
 ## Setup Instructions
+
+Prerequisites:
+
+- Node.js and npm installed
+- MongoDB installed or a cloud MongoDB database (MongoDB Atlas)
 
 ### Installation
 
