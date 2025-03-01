@@ -149,7 +149,7 @@ Feel free to contribute, suggest features, or open issues.
 
 ---
 
-Thank you for visiting. I hope you find my work interesting and valuable! To see the Website, 
+Thank you for visiting. I hope you find my work interesting and valuable! To see the Website. 
 For Frontend, Click <a href="https://forever-ecommerce-abhishekrajsingh.vercel.app/" >Here</a>.
 For Admin Panel, Click <a href="https://forever-ecommerce-admin-abhishekrajsingh.vercel.app/" >Here</a>.
 Admin Id: admin@forever.com
