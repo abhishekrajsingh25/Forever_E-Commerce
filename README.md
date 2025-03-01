@@ -74,7 +74,36 @@ This is a full-stack e-commerce web application built using the MERN stack (Mong
    cd ../admin
    npm install
    ```
+   
+5. **Environment Variables Setup**
+   Create a .env file in the root directory of the backend with the following:
+   ```bash
+   MONGODB_URI = your_mongo_database_uri
+   JWT_SECRET = your_jwt_secret_key
+   STRIPE_SECRET_KEY = your_stripe_secret_key
+   CLOUDINARY_NAME=  your_cloudinary_cloud_name
+   CLOUDINARY_API_KEY = your_cloudinary_api_key
+   CLOUDINARY_SECRET_KEY = your_cloudinary_api_secret
+   JWT_SECRET = your_jwt_secret_key
+   ADMIN_EMAIL = admin_email_id
+   ADMIN_PASSWORD = admin_password
+   RAZORPAY_KEY_SECRET = your_razorpay_secret_key
+   RAZORPAY_KEY_ID = your_razorpay_key_id
+   ```
 
+6. **Environment Variables Setup**
+   Create a .env file in the root directory of the frontend with the following:
+   ```bash
+   VITE_BACKEND_URL = "http://localhost:4000"
+   VITE_RAZORPAY_KEY_ID = your_razorpay_key_id
+   ```
+   
+7. **Environment Variables Setup**
+   Create a .env file in the root directory of the admin panel with the following:
+   ```bash
+   VITE_BACKEND_URL = "http://localhost:4000"
+   ```
+   
 ### Running the Application
 
 1. **Start the Backend Server**
@@ -119,3 +148,9 @@ Contributions are welcome! Please follow these steps:
 Feel free to contribute, suggest features, or open issues.
 
 ---
+
+Thank you for visiting. I hope you find my work interesting and valuable! To see the Website, 
+For Frontend, Click <a href="https://forever-ecommerce-abhishekrajsingh.vercel.app/" >Here</a>.
+For Admin Panel, Click <a href="https://forever-ecommerce-admin-abhishekrajsingh.vercel.app/" >Here</a>.
+Admin Id: admin@forever.com
+Admin Password: admin123
