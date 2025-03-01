@@ -39,7 +39,7 @@ This is a full-stack e-commerce web application built using the MERN stack (Mong
 
 - Cloudinary (for product image storage)
 - dotenv (for environment variables management)
-- Bcrypt.js (for password hashing)
+- Bcrypt (for password hashing)
 - Cors (for handling cross-origin requests)
 
 ## Setup Instructions
@@ -53,8 +53,8 @@ This is a full-stack e-commerce web application built using the MERN stack (Mong
 
 1. **Clone the Repository**
    ```bash
-   git clone https://github.com/abhishekrajsingh25/MERN-Chat-App.git
-   cd MERN-Chat-App
+   git clone https://github.com/abhishekrajsingh25/Forever_E-Commerce.git
+   cd Forever_E-Commerce
    ```
 
 2. **Install Backend Dependencies**
@@ -69,7 +69,7 @@ This is a full-stack e-commerce web application built using the MERN stack (Mong
    npm install
    ```
    
-4. **Install Admin Dependencies**
+4. **Install Admin Panel Dependencies**
    ```bash
    cd ../admin
    npm install
@@ -91,18 +91,12 @@ This is a full-stack e-commerce web application built using the MERN stack (Mong
    ```
    The frontend should now be running on `http://localhost:5173`.
 
-3. **Start the Frontend**
+3. **Start the Admin Panel**
    ```bash
    cd ../admin
    npm run dev
    ```
-   The frontend should now be running on `http://localhost:5174`.
-
-## Usage
-
-1. Open `http://localhost:5173` in a web browser.
-2. Enter a username and choose a room to join.
-3. Start chatting in real time with others in the same room.
+   The admin panel should now be running on `http://localhost:5174`.
 
 ## Deployment
 
