@@ -21,7 +21,7 @@ This is a full-stack e-commerce web application built using the MERN stack (Mong
 
 ## Tech Stack
 
-Frontend:
+# Frontend:
 
 - React.js (with React Router)
 - Tailwind CSS for UI styling
