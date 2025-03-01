@@ -27,7 +27,7 @@ This is a full-stack e-commerce web application built using the MERN stack (Mong
 - Tailwind CSS for UI styling
 - Axios for API requests
 
-Backend:
+### Backend:
 
 - Node.js with Express.js
 - MongoDB with Mongoose (for database management)
@@ -35,7 +35,7 @@ Backend:
 - Multer for image uploads
 - Stripe / Razorpay integration for payments
 
-Additional Tools:
+### Additional Tools:
 
 - Cloudinary (for product image storage)
 - dotenv (for environment variables management)
@@ -44,7 +44,7 @@ Additional Tools:
 
 ## Setup Instructions
 
-Prerequisites:
+### Prerequisites:
 
 - Node.js and npm installed
 - MongoDB installed or a cloud MongoDB database (MongoDB Atlas)
@@ -59,13 +59,19 @@ Prerequisites:
 
 2. **Install Backend Dependencies**
    ```bash
-   cd server
+   cd backend
    npm install
    ```
 
 3. **Install Frontend Dependencies**
    ```bash
-   cd ../client
+   cd ../frontend
+   npm install
+   ```
+   
+4. **Install Admin Dependencies**
+   ```bash
+   cd ../admin
    npm install
    ```
 
@@ -73,17 +79,24 @@ Prerequisites:
 
 1. **Start the Backend Server**
    ```bash
-   cd server
+   cd backend
    npm run dev
    ```
-   The backend server should now be running on `http://localhost:8747`.
+   The backend server should now be running on `http://localhost:4000`.
 
 2. **Start the Frontend**
    ```bash
-   cd ../client
+   cd ../frontend
    npm run dev
    ```
    The frontend should now be running on `http://localhost:5173`.
+
+3. **Start the Frontend**
+   ```bash
+   cd ../admin
+   npm run dev
+   ```
+   The frontend should now be running on `http://localhost:5174`.
 
 ## Usage
 
@@ -91,6 +104,12 @@ Prerequisites:
 2. Enter a username and choose a room to join.
 3. Start chatting in real time with others in the same room.
 
+## Deployment
+
+- The frontend can be deployed using Vercel.
+- The backend can be deployed using Vercel.
+- The admin can be deployed using Vercel.
+- MongoDB can be hosted on MongoDB Atlas.
 
 ## Contributing
 
@@ -103,6 +122,6 @@ Contributions are welcome! Please follow these steps:
 
 ---
 
-Feel free to contribute, suggest features, or open issues. Happy chatting!
+Feel free to contribute, suggest features, or open issues.
 
 ---
