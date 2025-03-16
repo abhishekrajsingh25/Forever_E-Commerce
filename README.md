@@ -84,7 +84,6 @@ This is a full-stack e-commerce web application built using the MERN stack (Mong
    CLOUDINARY_NAME=  your_cloudinary_cloud_name
    CLOUDINARY_API_KEY = your_cloudinary_api_key
    CLOUDINARY_SECRET_KEY = your_cloudinary_api_secret
-   JWT_SECRET = your_jwt_secret_key
    ADMIN_EMAIL = admin_email_id
    ADMIN_PASSWORD = admin_password
    RAZORPAY_KEY_SECRET = your_razorpay_secret_key
